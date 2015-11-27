@@ -17,10 +17,10 @@ public class Chemotaxis extends PApplet {
 Bacteria [] colony;  
  public void setup()   
  {     
- 	size(500,500); 
+ 	size(100,100); 
  	background(255);
  	
- 	colony = new Bacteria[5];
+ 	colony = new Bacteria[100];
  	for(int i=0; i<colony.length; i++)
  	{
  		int numX = (int)(Math.random()*500);
