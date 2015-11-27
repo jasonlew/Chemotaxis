@@ -20,7 +20,7 @@ Bacteria [] colony;
  	size(500,500); 
  	background(255);
  	
- 	colony = new Bacteria[100];
+ 	colony = new Bacteria[5];
  	for(int i=0; i<colony.length; i++)
  	{
  		int numX = (int)(Math.random()*500);
